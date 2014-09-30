@@ -1,0 +1,272 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: St Category Email Subscribe v0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: Wed Oct 01 2014 00:19:11 GMT+0300 (EEST)\n"
+"Last-Translator: admin <pedectrian@gmail.com>\n"
+"Language-Team: \n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: ru_RU"
+
+#: ../st-category-email-subscribe.php:121
+msgid "Please Check.Email Address is Invalid"
+msgstr "Ошибка. Неверный Email адрес"
+
+#: ../st-category-email-subscribe.php:143
+msgid "Like our posts? Subscribe to our newsletter"
+msgstr "Нравится наши новости? Подпишитесь на нашу рассылку"
+
+#: ../st-category-email-subscribe.php:145
+msgid "Name:"
+msgstr "Имя:"
+
+#: ../st-category-email-subscribe.php:146
+msgid "Name..."
+msgstr "Имя..."
+
+#: ../st-category-email-subscribe.php:147
+msgid "Email:"
+msgstr "Email:"
+
+#: ../st-category-email-subscribe.php:148
+msgid "Email Address..."
+msgstr "Email адрес..."
+
+#: ../st-category-email-subscribe.php:150
+msgid "Category:"
+msgstr "Категория:"
+
+#: ../st-category-email-subscribe.php:151
+msgid "Submit"
+msgstr "Подписаться"
+
+#: ../st-category-email-subscribe.php:153
+msgid "Thank you for subscribing to our mailing list"
+msgstr "Спасибо за подписку на наши новости"
+
+#: ../st-category-email-subscribe.php:284
+msgid "Category Email Subscribe Form"
+msgstr ""
+"Форма подписки \n"
+"на категорию\n"
+" по Email"
+
+#: ../st-category-email-subscribe.php:287
+msgid "An Widget that display Subscriber Form"
+msgstr "Виджет для отображения формы подписки на категорию"
+
+#: ../st-category-email-subscribe.php:359
+msgid "Prepend:"
+msgstr "Добавить в начало:"
+
+#: ../st-category-email-subscribe.php:363
+msgid "Show Name Field:"
+msgstr "Отображать поле \"Name\":\n"
+
+#: ../st-category-email-subscribe.php:367
+msgid "Name Field Label:"
+msgstr "Заголовок для поля \"Name\":"
+
+#: ../st-category-email-subscribe.php:371
+msgid "Name Field Default Value:"
+msgstr "Значение по умолчанию для поля \"Name\":"
+
+#: ../st-category-email-subscribe.php:375
+msgid "Email Field Label:"
+msgstr "Заголовок поля \"Email\":"
+
+#: ../st-category-email-subscribe.php:379
+msgid "Email Field Default Value:"
+msgstr "Значение по умолчанию для поля \"Email\":"
+
+#: ../st-category-email-subscribe.php:383
+msgid "Show Category Field:"
+msgstr "Отображать выбор категории:"
+
+#: ../st-category-email-subscribe.php:387
+msgid "Category Field Label:"
+msgstr "Заголовок поля категория:"
+
+#: ../st-category-email-subscribe.php:391
+msgid "Submit Button Label:"
+msgstr "Текст кнопки сохранения:"
+
+#: ../st-category-email-subscribe.php:395
+msgid "Show JavaScript Thanks:"
+msgstr "Отображать спасибо через javaScript:"
+
+#: ../st-category-email-subscribe.php:399
+msgid "Thank You Text"
+msgstr "Текст благодарности"
+
+#: ../st_category_email_subscribe_admin.php:94 ..
+#: /st_category_email_subscribe_admin.php:318
+msgid "Category Email Subscribe Plugin"
+msgstr "Плагин подписки на категорию через Email"
+
+#: ../st_category_email_subscribe_admin.php:100
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../st_category_email_subscribe_admin.php:104
+msgid "Send Email From (Email): "
+msgstr "Отправка Email от (Email):"
+
+#: ../st_category_email_subscribe_admin.php:108
+msgid "Send Email From (Name): "
+msgstr "Отправка Email от (Имя):"
+
+#: ../st_category_email_subscribe_admin.php:117
+msgid "How to Use"
+msgstr "Инструкции по использованию"
+
+#: ../st_category_email_subscribe_admin.php:119
+msgid "1. Enter the Send Email from Email and Name"
+msgstr "1. Введите значения \"Отправка Email от\" (Email и имя)"
+
+#: ../st_category_email_subscribe_admin.php:120
+msgid "All emails will be sent from this name and email"
+msgstr "Все сообщения будут отправлены от этого имени и Email"
+
+#: ../st_category_email_subscribe_admin.php:121
+msgid "2. Add Subscribers"
+msgstr "2. Добавьте подписчиков"
+
+#: ../st_category_email_subscribe_admin.php:122
+msgid "Go to St Category Emai Subscribe > Subscribers to Manage Subscribers"
+msgstr ""
+"Перейдите в \"\n"
+"St Category Emai Subscribe\" > \"Subscribers\" для упраления подписками"
+
+#: ../st_category_email_subscribe_admin.php:123
+msgid "You can manually add a subscriber"
+msgstr "Вы можете вручную добавить подписчика"
+
+#: ../st_category_email_subscribe_admin.php:124
+msgid "Or Import an entire list"
+msgstr "Или импортировать весь список"
+
+#: ../st_category_email_subscribe_admin.php:125
+msgid "The emails will be sent as soon as a "
+msgstr "Сообщения будут отправлены подписчикам как только "
+
+#: ../st_category_email_subscribe_admin.php:125
+msgid "Post is Published"
+msgstr "опубликован пост"
+
+#: ../st_category_email_subscribe_admin.php:126
+msgid ""
+"The email will be sent only to the subscribers registered for the category "
+"of Post"
+msgstr "Письмо будет отправлено только подписавшимся на категорию новой записи"
+
+#: ../st_category_email_subscribe_admin.php:127
+msgid "3. Add Subscribe Form"
+msgstr "3. Добавьте форму подписки"
+
+#: ../st_category_email_subscribe_admin.php:128
+msgid "Place the subscribe form on your website using "
+msgstr "Разместите форму подписки на вашем сайте используя "
+
+#: ../st_category_email_subscribe_admin.php:128
+msgid "Widget : Category Email Subscribe Form"
+msgstr "виджет: Форма подписки на категорию по Email\n"
+
+#: ../st_category_email_subscribe_admin.php:129
+msgid "Or Short code [st_category_subscribe_form]"
+msgstr "Или шорткод [st_category_subscribe_form]"
+
+#: ../st_category_email_subscribe_admin.php:141
+msgid "Show your Support"
+msgstr "Поддержите нас"
+
+#: ../st_category_email_subscribe_admin.php:144
+msgid ""
+"Want to help make this plugin even better? All donations are used to improve "
+"this plugin, so donate $20, $50 or $100 now!"
+msgstr ""
+"Хотите, чтобы этот плагин стал лучше? Все деньги пойдут на улучшение плагина!"
+" Поддержите нас на сумму $20, $50 или $100 сейчас!"
+
+#: ../st_category_email_subscribe_admin.php:146
+msgid "Donate"
+msgstr "Поддержите"
+
+#: ../st_category_email_subscribe_admin.php:151
+msgid "Connect With Us "
+msgstr "Свяжитесь с нами"
+
+#: ../st_category_email_subscribe_admin.php:192
+msgid "Input file is not specified"
+msgstr "Файл не прикреплен"
+
+#: ../st_category_email_subscribe_admin.php:201
+msgid "Source file could not be opened!"
+msgstr "Исходный файл не может быть открыт"
+
+#: ../st_category_email_subscribe_admin.php:202
+msgid "Error on fopen"
+msgstr "Ошибка fopen"
+
+#: ../st_category_email_subscribe_admin.php:233
+msgid "Insert into the Database failed for the following Query: "
+msgstr "Ошибка Insert в БД при следующем запросе: "
+
+#: ../st_category_email_subscribe_admin.php:271
+msgid "File content has been successfully imported into the database!"
+msgstr "Содержимое файла было успешно импортировано в базу данных!"
+
+#: ../st_category_email_subscribe_admin.php:277
+msgid "Error occured while trying to import!"
+msgstr "При импорте возникла ошибка!"
+
+#: ../st_category_email_subscribe_admin.php:285
+msgid "There was an error uploading the file, please try again!"
+msgstr "При загрузке файла произошла ошибка, пожалуйста повторите!"
+
+#: ../st_category_email_subscribe_admin.php:324
+msgid "Subscribers"
+msgstr "Подписчики"
+
+#: ../st_category_email_subscribe_admin.php:356
+msgid "Import Subscribers"
+msgstr "Импорт подписчиков"
+
+#: ../st_category_email_subscribe_admin.php:361
+msgid "Choose a CSV file to upload: "
+msgstr "Выбирете файл в формате CSV:"
+
+#: ../st_category_email_subscribe_admin.php:370
+msgid "Add a Subscriber"
+msgstr "Добавить подписчика"
+
+#: ../st_category_email_subscribe_admin.php:374
+msgid "Name"
+msgstr "Имя"
+
+#: ../st_category_email_subscribe_admin.php:378
+msgid "Email"
+msgstr "Email"
+
+#: ../st_category_email_subscribe_admin.php:382
+msgid "Category"
+msgstr "Категория"

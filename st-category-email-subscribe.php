@@ -130,7 +130,7 @@ function st_category_email_subscribe_form($atts){
 	
 	if ($showname) $return .= '<p class="st_name"><label class="st_namelabel" for="st_name">'.$nametxt.'</label><input class="st_nameinput" placeholder="'.$nameholder.'" name="st_name" type="text" value=""></p>';
 	$return .= '<p class="st_email"><label class="st_emaillabel" for="st_email">'.$emailtxt.'</label><input class="st_emailinput" name="st_email" placeholder="'.$emailholder.'" type="text" value=""></p>';
-	if ($showcategory) $return .= '<p class="st_category"><label class="st_categorylabel" for="st_category">'.$categorytxt.'</label><br/>'  . wp_dropdown_categories("name=st_category&id=st_category&show_option_all=All Categories&echo=0&hide_empty=0&hierarchical=1"). '</p>';
+	if ($showcategory) $return .= '<p class="st_category"><label class="st_categorylabel" for="st_category">'.$categorytxt.'</label><br/>'  . wp_dropdown_categories("name=st_category&id=st_category&show_option_all=". __('All Categories') . "&echo=0&hide_empty=0&hierarchical=1"). '</p>';
 	$return .= '<p class="st_submit"><input name="submit" class="btn st_submitbtn" type="submit" value="'.($submittxt?$submittxt:'Submit').'"></p>';
 	
 	$return .= '</form>';
@@ -140,17 +140,17 @@ function st_category_email_subscribe_form($atts){
 
 function st_category_email_subscribe_shortcode($atts=array()){
 	$atts = shortcode_atts(array(
-		"prepend" => 'Like our posts? Subscribe to our newsletter',  
+		"prepend" => __('Like our posts? Subscribe to our newsletter', 'stemail'),
         "showname" => true,
-		"nametxt" => 'Name:',
-		"nameholder" => 'Name...',
-		"emailtxt" => 'Email:',
-		"emailholder" => 'Email Address...',
+		"nametxt" => __('Name:', 'stemail'),
+		"nameholder" => __('Name...', 'stemail'),
+		"emailtxt" => __('Email:', 'stemail'),
+		"emailholder" => __('Email Address...', 'stemail'),
 		"showcategory" => true,
-		"categorytxt" => 'Category:',
-		"submittxt" =>'Submit',
+		"categorytxt" => __('Category:', 'stemail'),
+		"submittxt" =>__('Submit', 'stemail'),
 		"jsthanks" => false,
-		"thankyou" => 'Thank you for subscribing to our mailing list'
+		"thankyou" => __('Thank you for subscribing to our mailing list', 'stemail')
     ), $atts);
 	
 	return st_category_email_subscribe_form($atts);
